@@ -1,0 +1,115 @@
+body, input, button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #94ff94;
+    font-size: 50px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#gamebox {
+    width: 400px;
+    height: 400px;
+    background-color: #94ff94;
+    border: 1px #000 solid;
+    border-radius: 2px;
+}
+
+.game button {
+    margin-top: 20px;
+    width: 280px;
+    height: 55px;
+    border: 1px #94ff94 solid;
+    border-radius: 2px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #000;
+    color: #94ff94;
+    cursor: pointer;
+}
+
+#player1 {
+    float: left;
+    margin-left: 60px;
+}
+
+#player2 {
+    float: right;
+    margin-right: 60px;
+}
+
+.playerbtn {
+    width: 280px;
+    height: 55px;
+    border: 1px #94ff94 solid;
+    border-radius: 2px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #000;
+    color: #94ff94;
+    cursor: pointer;
+}
+
+strong {
+    font-size: 25px;
+}
+
+.playernames {
+    font-size: 30px;
+    color: #94ff94;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+#turn {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#aligned {
+    margin-left: 53px;
+    position: relative;
+}
+
+#guesstype {
+    margin-left: 90px;
+    margin-bottom: 5px;
+    width: 220px;
+    height: 220px;
+    margin-top: -31px;
+}
+
+#number {
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#guesstype2 {
+    margin-left: 47px;
+    margin-bottom: 5px;
+    width: 220px;
+    height: 220px;
+    margin-top: -31px;
+}

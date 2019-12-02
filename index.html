@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ultimate Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="utf-8">
+    <script type="text/javascript" src='script.js'></script>
+</head>
+
+<body>
+    <h1>The Ultimate Guessing Game</h1>
+    <div id="player1">
+        <button class="playerbtn" onclick="createProfile('1')">Cadastrar jogador 1</button>
+        <br><br><br><br>
+        <strong>Jogador 1: </strong><p id="player1name" class="playernames"></p>
+        <br><br>
+        <strong>Idade: </strong><p id="player1age" class="playernames"></p>
+    </div>
+    <div id="player2">
+        <button class="playerbtn" onclick="createProfile('2')">Cadastrar jogador 2</button>
+        <br><br><br><br>
+        <strong>Jogador 2: </strong><p id="player2name" class="playernames"></p>
+        <br><br>
+        <strong>Idade: </strong><p id="player2age" class="playernames"></p>
+    </div>
+    <div class="game">
+        <div id="gamebox">
+
+        </div>
+        <button onclick="gameStart(0, 0)">Iniciar</button>
+    </div>
+</body>
+
+</html>
